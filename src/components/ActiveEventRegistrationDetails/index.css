@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.active-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  padding: 30px;
+}
+
+.registered-img {
+  height: 100px;
+}
+.registered-text {
+  font-size: 30px;
+  font-weight: 500;
+  color: grey;
+}
+.yet-to-register-img {
+  height: 30%;
+}
+
+.registrations-closed-img {
+  height: 30%;
+}
+
+@media (max-width: 772px) {
+  .active-container {
+    width: 100%;
+  }
+  .yet-to-register-img {
+    height: 200px;
+  }
+  .registrations-closed-img {
+    height: 200px;
+  }
+}
+.reg-display-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+}
+.register-btn {
+  height: 40px;
+  width: 150px;
+  background-color: #0967d2;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  margin-top: 20px;
+}
+
+.reg-closed-text {
+  font-size: 25px;
+  font-weight: 500;
+  color: grey;
+}
